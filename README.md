@@ -34,7 +34,7 @@ import UnifyID
 let unify : UnifyID = { try! UnifyID(
     sdkKey: "https://xxx@yyy.unify.id",
     user: "unique-user-identifier-no-pii"
-)() }
+) }()
 ```
 
 ## Next Steps
