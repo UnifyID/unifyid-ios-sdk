@@ -14,7 +14,7 @@ UnifyID SDK is installed through cocoapods, if you haven't already you'll need t
 
 ## Add the UnifyID SDK Cocoapod
 
-1. Add `pod UnifyID` to your `Podfile`
+1. Add `pod 'UnifyID'` to your `Podfile`
 2. Run `pod install`
 3. Open your project *using the workspace file*
 
