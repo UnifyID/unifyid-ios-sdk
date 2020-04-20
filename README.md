@@ -7,7 +7,7 @@
 
 ## Initialize Cocoapods
 
-UnifyID SDK is installed through cocoapods, if you haven't already you'll need to [setup your project to use cocoapods](https://guides.cocoapods.org/using/README.md).
+UnifyID SDK is installed through cocoapods, if you haven't already you'll need to [setup your project to use cocoapods](https://guides.cocoapods.org/using/getting%2dstarted.html).
 
 1. `sudo gem install cocoapods`
 2. `pod init`
