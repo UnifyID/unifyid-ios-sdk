@@ -41,6 +41,6 @@ let unify : UnifyID = { try! UnifyID(
 
 ## Next Steps
 
-### [Getting Started with HumanDetect](./getting-started-HumanDetect)
+### [Getting Started with HumanDetect](./HumanDetect)
 
 ### [Getting Started with PushAuth](./PushAuth)
