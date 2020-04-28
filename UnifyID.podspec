@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
     s.platform = :ios, '10.0'
     s.swift_version = '4.2'
-    s.source = { :http => "https://github.com/UnifyID/github-ios-sdk/releases/download/v2.0.24/UnifyID-2.0.24.zip" }
+    s.source = { :http => "https://github.com/UnifyID/unifyid-ios-sdk/releases/download/v2.0.24/UnifyID-2.0.24.zip" }
 
     s.subspec 'HumanDetect' do |ss|
         s.dependency 'UnifyID-HumanDetect', '~> 2.0.3'
