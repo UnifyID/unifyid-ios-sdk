@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
     s.name             = 'UnifyID-HumanDetect'
     s.version          = '2.0.3'
     s.summary          = 'Passive detect whether your app is being used by a human or a bot.'
-    s.homepage         = 'https://github.com/UnifyID/unifyid-ios-sdk/blob/master/HumanDetect.md'
+    s.homepage         = 'https://github.com/UnifyID/unifyid-ios-sdk/tree/master/HumanDetect'
     s.license          = { :type => 'Commercial', :text => 'See https://unify.id/terms' }
     s.author           = { 'UnifyID' => 'support@unify.id' }
 
