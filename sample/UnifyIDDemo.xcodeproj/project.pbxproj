@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		0AB57446988DF36F219C6122 /* Pods-UnifyIDDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnifyIDDemo.release.xcconfig"; path = "Target Support Files/Pods-UnifyIDDemo/Pods-UnifyIDDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5340B26C2466145D00D8F96D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53673194242E6E99006EFBC3 /* UnifyIDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnifyIDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53B8A0AB244FDEE10008C85A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53B8A0AC244FDEE10008C85A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = UnifyIDDemo/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
@@ -29,7 +30,6 @@
 		53B8A0B1244FDEE10008C85A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = UnifyIDDemo/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		53B8A0B2244FDEE10008C85A /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsVC.swift; path = UnifyIDDemo/SettingsVC.swift; sourceTree = SOURCE_ROOT; };
 		53B8A0B3244FDEE10008C85A /* HumanDetectVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HumanDetectVC.swift; path = UnifyIDDemo/HumanDetectVC.swift; sourceTree = SOURCE_ROOT; };
-		53B8A0B4244FDEE10008C85A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		53B8A0BE244FDF800008C85A /* UnifyIDDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = UnifyIDDemo.entitlements; path = UnifyIDDemo/UnifyIDDemo.entitlements; sourceTree = SOURCE_ROOT; };
 		610DAD7EB2C4112D91C2B14E /* Pods_UnifyIDDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnifyIDDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FA37ACF9F5620402F9D036 /* Pods-UnifyIDDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnifyIDDemo.debug.xcconfig"; path = "Target Support Files/Pods-UnifyIDDemo/Pods-UnifyIDDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -50,6 +50,7 @@
 		5367318B242E6E99006EFBC3 = {
 			isa = PBXGroup;
 			children = (
+				5340B26C2466145D00D8F96D /* Info.plist */,
 				53673196242E6E99006EFBC3 /* UnifyIDDemo */,
 				53673195242E6E99006EFBC3 /* Products */,
 				CE5D2E3577D2D12E24EB43DE /* Pods */,
@@ -73,7 +74,6 @@
 				53B8A0B1244FDEE10008C85A /* Assets.xcassets */,
 				53B8A0A9244FDEE10008C85A /* Base.lproj */,
 				53B8A0B3244FDEE10008C85A /* HumanDetectVC.swift */,
-				53B8A0B4244FDEE10008C85A /* Info.plist */,
 				53B8A0B0244FDEE10008C85A /* PushAuthVC.swift */,
 				53B8A0B2244FDEE10008C85A /* SettingsVC.swift */,
 				53B8A0AD244FDEE10008C85A /* Storyboard.storyboard */,
