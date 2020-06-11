@@ -26,7 +26,7 @@ Signup on the [UnifyID Developer Portal](https://developer.unify.id) to obtain a
 
 ## Initialize an instance of UnifyID SDK
 
-In your root object or app delegate initialize an instance of the sdk using `UnifyID.init(...)`.  You will need to provide your SDK Key (looks like `https://xxxx@xxx.unify.id`), and a unique user identifier.  If you don't provide a user identifier one will be generated for you from the device ID.
+In your root object or app delegate initialize an instance of the sdk using `UnifyID.init()`.  You will need to provide your SDK Key (looks like `https://xxx@yyy.unify.id`), and a unique user identifier.  If you don't provide a user identifier one will be generated for you from the device ID.
 
 > NOTE: User identifier is stored on Unify servers and should not contain email addresses or other personally identifying information
 
