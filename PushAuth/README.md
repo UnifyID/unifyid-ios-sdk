@@ -1,6 +1,6 @@
 # Getting Started with UnifyID PushAuth iOS SDK
 
-Before following this guide, follow the [Getting Started](./../README.md) guide to set up the `UnifyID` SDK
+Before following this guide, follow the [Getting Started](./UnifyID) guide to set up the `UnifyID` SDK
 
 ## PushAuth
 
