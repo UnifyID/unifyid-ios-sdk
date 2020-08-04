@@ -1,6 +1,6 @@
 # Getting Started with UnifyID PushAuth iOS SDK
 
-Before following this guide, follow the [Getting Started](./UnifyID) guide to set up the `UnifyID` SDK
+Before following this guide, follow the [Getting Started](../README.md) guide to set up the `UnifyID` SDK
 
 ## PushAuth
 
@@ -16,7 +16,7 @@ Before using the SDK, you'll need to upload your Apple Push Certificate to the [
 
 If you would like to use this certificate during development, generate a `Sandbox & Production` certificate.  Once you've downloaded that certificate, go into your keychain and export the private key that was used for the push certificate as a `p12` file, and choose to export without a password.
 
-![Export P12 from Keychain](./img/export_p12.png)
+![Export P12 from Keychain](../img/export_p12.png)
 
 You can then upload that certificate to the UnifyID Dashboard for your app (Use a different app target for "sandbox") and push should be enabled.
 

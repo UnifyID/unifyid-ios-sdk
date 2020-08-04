@@ -1,10 +1,10 @@
 # Getting Started with UnifyID HumanDetect
 
-Before following this guide, follow the [Getting Started](./UnifyID) guide to setup the `UnifyID` SDK
+Before following this guide, follow the [Getting Started](../README.md) guide to setup the `UnifyID` SDK
 
 ## HumanDetect
 
-UnifyID HumanDetect provides a mechanism to generate passive [CAPTCHA](https://en.wikipedia.org/wiki/CAPTCHA) tokens.  These tokens can be sent to remote API as a verification that the caller of the API is a human, using your mobile application.  HumanDetect functionality is accessed through the `UnifyID.humanDetect` SDK instance you allocated [earlier](./UnifyID) and uses the user and SDK Key provided to that.
+UnifyID HumanDetect provides a mechanism to generate passive [CAPTCHA](https://en.wikipedia.org/wiki/CAPTCHA) tokens.  These tokens can be sent to remote API as a verification that the caller of the API is a human, using your mobile application.  HumanDetect functionality is accessed through the `UnifyID.humanDetect` SDK instance you allocated [earlier](../README.md#initialize-an-instance-of-the-unifyid-sdk) and uses the user and SDK Key provided to that.
 
 ```swift
 import HumanDetect
@@ -33,4 +33,4 @@ case .failure(let error):
 }
 ```
 
-That token string can then be sent as a header or part of body payload (whatever works with your API endpoint) and will enable the server to call our secure endpoint to verify the humanDetect and return the details to your API.
+That token string can then be sent as a header or part of a request body (whatever works with your API endpoint) and will enable the server to call our secure endpoint to verify the token and return the details to your API.
