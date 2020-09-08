@@ -5,6 +5,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This file tracks the "Core" versioning information, relating to fixes that apply to all modules.
 See individual module change logs for versioning information regarding modules.
 
+## [4.2.0] - 2020-09-01
+
+## Changes
+
+- Support GaitAuth 4.2.0
+
+## [4.1.0] - 2020-08-26
+
+## Changes
+
+- Exposed version numbers as static properties of each module class
+
+## Fixed
+
+- Fixed a bug causing a deadlock when trying to perform SDK initialization concurrently
+- Suppress debug logging
+
 ## [4.0.0] - 2020-08-20
 
 ## Changes
