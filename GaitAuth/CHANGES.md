@@ -4,35 +4,72 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 This file tracks the GaitAuth module related changes.
 
+## [4.3.0] - 2020-09-30
+
+### Added
+
+- Support for Xcode 12.0
+- Experimental: Add additional `context` fields to result of `Authenticator`
+  objects.
+
+### Changed
+
+- CocoaPod distribution changes. SDK is now distributed as
+  `xcframework` bundles and requires `CocoaPods >= 1.10.0.rc.1`.
+
+### Fixed
+
+- Bug where device authenticator always returned
+  inconclusive until the next lock/unlock event after initialization.
+- Bug where gait authenticator would stop collecting data when reaching
+  the configured maximum buffer size instead of discarding old data.
+
+## [4.2.1] - 2020-09-14
+
+### Added
+
+- Experimental interface for extracting features from pre-recorded data
+
 ## [4.2.0] - 2020-09-01
 
-## Changes
+### Added
 
-- Added new experimental `Authenticator` interfaces
-- Added the ability to unsubscribe a single feature observer from updates
+- Experimental `Authenticator` interfaces
+- Can now unsubscribe a single feature observer from updates
 
 ## [4.1.0] - 2020-08-26
 
-## Changes
+## Added
 
 - Exposed version numbers as static properties of each module class
+
+### Changed
+
 - Upgrade SDK Core to 4.1.0
 
 ## [4.0.0] - 2020-08-20
 
-## Changed
+### Added
+
+- New `GaitAuthError` case `.networkResponseInvalid`
+
+### Changed
 
 - `GaitScore` is now a struct instead of a protocol
+
+### Removed
+
 - Removed two unused cases in `GaitAuthError`
-- Added a new `GaitAuth.networkResponseInvalid` case
 
 ## [3.0.0] - 2020-08-11
 
-## Changed
+### Changed
 
 - Major set of breaking changes to public interface.
 - GaitAuth now takes takes responsibility for local model storage.
 
 ## 2.0.0
 
-Initial trusted customer release
+### Added
+
+- Initial trusted customer release
