@@ -5,15 +5,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This file tracks the "Core" versioning information, relating to fixes that apply to all modules.
 See individual module change logs for versioning information regarding modules.
 
+## [4.3.0] - 2020-09-30
+
+### Added
+
+- Support for Xcode 12.0
+
+### Changed
+
+- CocoaPod distribution changes. SDK is now distributed as
+  `xcframework` bundles and requires `CocoaPods >= 1.10.0.rc.1`.
+- Support GaitAuth 4.3.0, PushAuth 3.2.0, HumanDetect 3.2.0
+
+## [4.2.1] - 2020-09-14
+
+### Changes
+
+- Support GaitAuth 4.2.1
+
 ## [4.2.0] - 2020-09-01
 
-## Changes
+### Changes
 
 - Support GaitAuth 4.2.0
 
 ## [4.1.0] - 2020-08-26
 
-## Changes
+### Changes
 
 - Exposed version numbers as static properties of each module class
 
@@ -24,13 +42,13 @@ See individual module change logs for versioning information regarding modules.
 
 ## [4.0.0] - 2020-08-20
 
-## Changes
+### Changes
 
 - Support GaitAuth `4.0.0`
 
 ## [3.0.0] - Unreleased
 
-## Changes
+### Changes
 
 - Removed and renamed several error codes
 
@@ -60,4 +78,4 @@ See individual module change logs for versioning information regarding modules.
 
 ### Changes
 
-First official release.  HumanDetect module only.
+- First official release.  HumanDetect module only.
