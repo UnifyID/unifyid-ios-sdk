@@ -5,6 +5,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This file tracks the "Core" versioning information, relating to fixes that apply to all modules.
 See individual module change logs for versioning information regarding modules.
 
+## [4.4.0] - 2020-10-13
+
+### Changed
+
+- Internal changes to support GaitAuth `4.4.0`
+
 ## [4.3.0] - 2020-09-30
 
 ### Added
@@ -19,19 +25,19 @@ See individual module change logs for versioning information regarding modules.
 
 ## [4.2.1] - 2020-09-14
 
-### Changes
+### Changed
 
 - Support GaitAuth 4.2.1
 
 ## [4.2.0] - 2020-09-01
 
-### Changes
+### Changed
 
 - Support GaitAuth 4.2.0
 
 ## [4.1.0] - 2020-08-26
 
-### Changes
+### Changed
 
 - Exposed version numbers as static properties of each module class
 
@@ -42,19 +48,19 @@ See individual module change logs for versioning information regarding modules.
 
 ## [4.0.0] - 2020-08-20
 
-### Changes
+### Changed
 
 - Support GaitAuth `4.0.0`
 
 ## [3.0.0] - Unreleased
 
-### Changes
+### Changed
 
 - Removed and renamed several error codes
 
 ## [2.0.27] - 2020-06-11
 
-### Changes
+### Changed
 
 - Support for changes in PushAuth 2.0.12
 - Exposed an `installID` value for debugging
@@ -69,13 +75,13 @@ See individual module change logs for versioning information regarding modules.
 
 ## [2.0.23] - 2020-04-22
 
-### Changes
+### Changed
 
 - Documentation fixes
 - Podspec URL change, using Github release rather than AWS for binary storage
 
 ## [2.0.22] - 2020-04-15
 
-### Changes
+### Changed
 
 - First official release.  HumanDetect module only.
