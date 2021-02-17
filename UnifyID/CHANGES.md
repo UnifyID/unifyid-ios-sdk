@@ -5,6 +5,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This file tracks the "Core" versioning information, relating to fixes that apply to all modules.
 See individual module change logs for versioning information regarding modules.
 
+## [4.5.0] - 2021-02-17
+
+### Changed
+
+- Internal changes to support BehaviorPrint SDK.
+
 ## [4.4.0] - 2020-10-13
 
 ### Changed

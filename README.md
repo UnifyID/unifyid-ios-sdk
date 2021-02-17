@@ -62,7 +62,7 @@ the SDK.
 
 1. Download the UnifyID framework artifacts into a local vendor folder in your project. All SDK targets will require
    the `UnifyID-Core` release frameworks (`UnifyID`, `SwiftProtobuf` & `Clibsodium`) in addition to the frameworks
-   provided by a `GaitAuth`/`PushAuth`/`HumanDetect` release.
+   provided by a `GaitAuth`/`PushAuth`/`HumanDetect` release.  Unzip the downloaded files to extract the `xcframework`s.
 
 2. Open your Xcode project or workspace and navigate to the "Build Phases" tab of your application target. Expand the "Link Binary with Libraries" section
    and drag the `xcframework` files directly from `Finder` into the window. Assuming the framework files are already in your project folder, you should
@@ -84,9 +84,12 @@ the SDK.
     <div align="center"><img src="img/sdk-integration-4.png" alt="Configured Build Phases" width="600px" /></div>
 
 5. Add a custom build setting in your `xcconfig` file to disable unsupported architectures. The following setting means that
-   The project cannot be run in the iOS Simulator on 32 bit Macs or Arm-based Apple Silicon Macs. The latter is on our roadmap
+   the project cannot be run in the iOS Simulator on 32 bit Macs or Arm-based Apple Silicon Macs. The latter is on our roadmap
    to support, but is not working at present. Please file a GitHub issue if this will block your workflow.
 
     ```
     EXCLUDED_ARCHS[sdk=iphonesimulator*] = i386 arm64
     ```
+
+    See [this article](https://nshipster.com/xcconfig) on xcconfig files and [this site](https://xcodebuildsettings.com/#excluded_archs)
+    on Xcode build settings for more information.
