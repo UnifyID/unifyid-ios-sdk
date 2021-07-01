@@ -5,6 +5,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This file tracks the "Core" versioning information, relating to fixes that apply to all modules.
 See individual module change logs for versioning information regarding modules.
 
+## [4.8.1] 2021-06-02
+
+### Changed
+
+- Internal changes to support caching authentication and configuration state.
+  This helps avoid redundant network calls when restarting the SDK after
+  a short period of being inactive.
+- Reduced the size of the bundled SwiftProtobuf framework.
+
+## [4.7.0] - UNRELEASED
+
+### Changed
+
+- Internal changes to support BehaviorPrint SDK.
+
+## [4.6.0] - UNRELEASED
+
+### Changed
+
+- Internal changes to support BehaviorPrint SDK.
+
 ## [4.5.0] - 2021-02-17
 
 ### Changed
