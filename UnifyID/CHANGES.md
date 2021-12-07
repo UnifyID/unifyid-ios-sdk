@@ -5,7 +5,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This file tracks the "Core" versioning information, relating to fixes that apply to all modules.
 See individual module change logs for versioning information regarding modules.
 
-## [4.8.1] 2021-06-02
+## [4.7.4] 2021-12-07
+
+### Added
+
+- Support for Xcode 13.0
+
+## [4.7.3] 2021-06-02
 
 ### Changed
 
