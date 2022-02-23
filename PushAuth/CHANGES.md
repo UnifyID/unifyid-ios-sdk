@@ -4,6 +4,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 This file tracks the PushAuth module related changes.
 
+## [3.2.10] - 2022-02-23
+
+### Changed
+
+- Upgrade to SDK Core 4.7.7
+
 ## [3.2.9] - 2022-02-14
 
 ### Changed
