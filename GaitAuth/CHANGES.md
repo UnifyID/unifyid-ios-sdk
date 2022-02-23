@@ -4,6 +4,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 This file tracks the GaitAuth module related changes.
 
+## [4.4.9] - 2022-02-23
+
+### Changed
+
+- Upgrade to SDK Core 4.7.7
+
+
 ## [4.4.8] - 2022-02-14
 
 ### Changed
