@@ -1,4 +1,4 @@
-# UnifyID iOS SDK Reference
+# Prove iOS SDK Reference
 
 ## Prerequisites
 
@@ -47,7 +47,7 @@ end
 
 ### Manual Integration
 
-The UnifyID SDK is also distributed in the form of XCFramework files which may be directly dragged into your
+The Prove SDK is also distributed in the form of XCFramework files which may be directly dragged into your
 `xcodeproj` file to link the SDK. This section will guide you through the process of manually integrating
 the SDK.
 
@@ -60,8 +60,8 @@ the SDK.
 
 #### Installation
 
-1. Download the UnifyID framework artifacts into a local vendor folder in your project. All SDK targets will require
-   the `UnifyID-Core` release frameworks (`UnifyID`, `SwiftProtobuf` & `Clibsodium`) in addition to the frameworks
+1. Download the Prove framework artifacts into a local vendor folder in your project. All SDK targets will require
+   the `Prove-Core` release frameworks (`Prove`, `SwiftProtobuf` & `Clibsodium`) in addition to the frameworks
    provided by a `GaitAuth`/`PushAuth`/`HumanDetect` release.  Unzip the downloaded files to extract the `xcframework`s.
 
 2. Open your Xcode project or workspace and navigate to the "Build Phases" tab of your application target. Expand the "Link Binary with Libraries" section
@@ -72,9 +72,9 @@ the SDK.
     <div align="center"><img src="img/sdk-integration-1.png" alt="Link Binary with Libraries Build Phase" width="600px" /></div>
 
 3. Still on the "Build Phases" tab, click the `+` icon in the top left to add a new build phase. Choose the `New Copy Files Phase` option and
-   select `Frameworks` as the destination. As the UnifyID SDK is split into multiple frameworks, the dynamic frameworks need to be copied
+   select `Frameworks` as the destination. As the Prove SDK is split into multiple frameworks, the dynamic frameworks need to be copied
    into the application bundle so that they appear in the framework search path at runtime. In this section, you just need to include the
-   UnifyID module you are using (`UnifyID`, `GaitAuth`, `PushAuth` or `HumanDetect`) as well as `SwiftProtobuf`.
+   Prove module you are using (`Prove`, `GaitAuth`, `PushAuth` or `HumanDetect`) as well as `SwiftProtobuf`.
 
     <div align="center"><img src="img/sdk-integration-2.png" alt="Copy Files Build Phase" width="600px" /></div>
     <div align="center"><img src="img/sdk-integration-3.png" alt="Embedded Frameworks" width="600px" /></div>
